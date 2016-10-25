@@ -12,7 +12,7 @@ k = 0
 while k < (len(testList) - 1):
     if testList[k] == testList[k + 1]: #checking pair of symbols
         testList.pop(k) #del first element of double
-        testList.pop(k) #del secont elemrnt (it comes first place)
+        testList.pop(k) #del second elemrnt (it comes first place)
         if k != 0: #if remove two symbols, shift back to check previous
             k -= 1
         continue
